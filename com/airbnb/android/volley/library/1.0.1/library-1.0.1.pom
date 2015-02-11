@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.airbnb.android.volley</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>Volley-OkHttp-Android library</name>
+  <description>This is a clone of Volley, with the relevant changes made to make it work with Square's OkHttp library. It also has Jackson integrated to provide a convenient object model.</description>
+  <url>https://github.com/lxdvs/Volley-OkHttp-Android/tree/new-scv</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/lxdvs/Volley-OkHttp-Android/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>lxdvs</id>
+      <name>Alex Davis</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:lxdvs/Volley-OkHttp-Android.git</connection>
+    <developerConnection>scm:git@github.com:lxdvs/Volley-OkHttp-Android.git</developerConnection>
+    <url>https://github.com/lxdvs/Volley-OkHttp-Android/tree/new-scv</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
